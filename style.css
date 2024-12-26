@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;         
+}
+
+h1 {
+    font-size: 1.0cm;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.section-title {
+    font-size: 0.8cm;
+    color: #3498db;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.profile-img {
+    border-radius: 30%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid green;
+    margin-bottom: 20px;
+}
+
+.profile-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 150px;
+}
+
+.section p {
+    font-size: 0.5cm;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.youtube-container {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-container iframe {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+}
+button {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 20px 40px;  /* 使按鈕變大 */
+    font-size: 18px;  /* 增大字體 */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;  /* 懸停時顏色變化 */
+}
+
+#Christmas {
+    font-size: 0.6cm;
+    color: #e74c3c;  /* 初始顏色為紅色 */
+    margin: 0;
+    transition: all 0.3s ease;  /* 讓文字顏色變化時過渡效果平滑 */
+}
